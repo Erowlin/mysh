@@ -1,17 +1,15 @@
+export TERM="xterm-256color"
 # Path to your oh-my-zsh installation.
-export ZSH=$HOME/.oh-my-zsh
+export ZSH=/Users/romera_t/.oh-my-zsh
 
 # Set name of the theme to load.
 # Look in ~/.oh-my-zsh/themes/
 # Optionally, if you set this to "random", it'll load a random theme each
 # time that oh-my-zsh is loaded.
 ZSH_THEME="powerlevel9k/powerlevel9k"
-DEFAULT_USER="romera_t"
-export TERM=xterm-256color
-export LC_ALL=en_US.UTF-8
-export LANG=en_US.UTF-8
-
-
+POWERLEVEL9K_SHORTEN_DIR_LENGTH=2
+POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(rbenv vcs)
+POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=(rspec_stats)
 
 # Uncomment the following line to use case-sensitive completion.
 # CASE_SENSITIVE="true"
@@ -55,11 +53,11 @@ export LANG=en_US.UTF-8
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git colorize colored-man-pages extract bundler gem)
+plugins=(git)
 
 # User configuration
 
-export PATH=$HOME/bin:/usr/local/bin:$PATH
+# export PATH="/usr/bin:/bin:/usr/sbin:/sbin:$PATH"
 # export MANPATH="/usr/local/man:$MANPATH"
 
 source $ZSH/oh-my-zsh.sh
@@ -88,67 +86,7 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+export PATH="$HOME/.rbenv/bin:$PATH"
+export PATH="$HOME/.rbenv/shims:$PATH"
+export PATH="$HOME/bin:$PATH"
 
-## POWERLEVEL9K Configuration 
-## Documentation : https://github.com/bhilburn/powerlevel9k
-
-POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(rbenv vcs)
-# POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=(rspec_stats)
-# Add changeset to the VCS line.
-# POWERLEVEL9K_SHOW_CHANGESET=true
-# POWERLEVEL9K_CHANGESET_HASH_LENGTH=6
-
-# Hide the right prompt
-POWERLEVEL9K_DISABLE_RPROMPT=true
-POWERLEVEL9K_DIR_HOME_BACKGROUND="cyan"
-POWERLEVEL9K_DIR_DEFAULT_BACKGROUND="cyan"
-POWERLEVEL9K_DIR_HOME_SUBFOLDER="cyan"
-
-POWERLEVEL9K_VCS_MODIFIED_FOREGROUND='black'
-POWERLEVEL9K_VCS_MODIFIED_BACKGROUND='red'
-
-
-source ~/.zshrc_aliases
-
-# Terminal, OS X (iTerm version: https://gist.github.com/1137050)
-# 1. change 'your_app_production' to your application name
-# 1a. Tune the colors by your taste
-# 2. put these functions to your .bashrc, .zshrc 
-#    or anywhere where it gets loaded for your iTerm session
-# 3. restart iTerm or 'source ~/.zshrc' and use these functions
-
-set_color() {
-   local R=$1
-   local G=$2
-   local B=$3
-   arch -i386 /usr/bin/osascript <<EOF
-
-tell application "Terminal"
-   tell window 0
-      set the background color to {$(($R*65535/255)), $(($G*65535/255)), $(($B*65535/255))}
-   end tell
-end tell
-EOF
-}
-
-reset_colors() {
-  set_color 0 0 0
-}
-
-hpp() {
-    set_color 46 0 0
-    heroku $@ --remote production-danger #change me
-    reset_colors
-}
-
-hps() {
-    set_color 0 22 0
-    heroku $@ --app your_app_staging #change me
-    reset_colors
-}
-
-hrk(){
-  set_color 46 0 0
-  heroku $@
-  reset_colors
-}
