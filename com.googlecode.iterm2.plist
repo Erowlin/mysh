@@ -31670,14 +31670,10 @@
 	<true/>
 	<key>MaxVertically</key>
 	<false/>
-	<key>NSFontPanelAttributes</key>
-	<string>1, 1</string>
 	<key>NSNavLastRootDirectory</key>
 	<string>~/workspace/mysh</string>
 	<key>NSNavPanelExpandedSizeForOpenMode</key>
-	<string>{712, 459}</string>
-	<key>NSNavPanelExpandedSizeForSaveMode</key>
-	<string>{712, 521}</string>
+	<string>{712, 448}</string>
 	<key>NSQuotedKeystrokeBinding</key>
 	<string></string>
 	<key>NSRepeatCountBinding</key>
@@ -31693,7 +31689,7 @@
 	gAKACoAN0xAJChEVGVdOUy5rZXlzoxITFIADgASABaMWFxiABoAHgAiACVpJZGVudGlm
 	aWVyVVdpZHRoVkhpZGRlblEwI0BowAAAAAAACNIhIiMkWiRjbGFzc25hbWVYJGNsYXNz
 	ZXNcTlNEaWN0aW9uYXJ5oiMlWE5TT2JqZWN00xAJCicrGaMSExSAA4AEgAWjLC0YgAuA
-	DIAIgAlRMSNAdCAAAAAAANIhIjM0Xk5TTXV0YWJsZUFycmF5ozM1JVdOU0FycmF5XxAP
+	DIAIgAlRMSNAdCGdsi0OVtIhIjM0Xk5TTXV0YWJsZUFycmF5ozM1JVdOU0FycmF5XxAP
 	TlNLZXllZEFyY2hpdmVy0Tg5VUFycmF5gAEACAARABoAIwAtADIANwBGAEwAUQBcAGMA
 	ZgBoAGoAbABzAHsAfwCBAIMAhQCJAIsAjQCPAJEAnACiAKkAqwC0ALUAugDFAM4A2wDe
 	AOcA7gDyAPQA9gD4APwA/gEAAQIBBAEGAQ8BFAEjAScBLwFBAUQBSgAAAAAAAAIBAAAA
@@ -31715,17 +31711,11 @@
 		<integer>1</integer>
 	</dict>
 	<key>NSWindow Frame NSFontPanel</key>
-	<string>189 110 1025 255 0 0 1280 777 </string>
-	<key>NSWindow Frame Preferences</key>
-	<string>1770 297 606 456 1280 -280 1920 1057 </string>
-	<key>NSWindow Frame SUStatusFrame</key>
-	<string>440 487 400 129 0 0 1280 777 </string>
-	<key>NSWindow Frame SUUpdateAlert</key>
-	<string>330 288 620 392 0 0 1280 777 </string>
+	<string>769 110 445 276 0 0 1280 777 </string>
 	<key>NSWindow Frame SharedPreferences</key>
-	<string>14 158 796 473 0 0 1280 777 </string>
+	<string>345 231 796 473 0 0 1280 777 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
-	<string>3 7 1274 768 0 0 1280 777 </string>
+	<string>3 270 650 502 0 0 1280 777 </string>
 	<key>NeverWarnAboutShortLivedSessions_7FCA6AFD-5B23-4E61-9AF5-7F530D4C28DE</key>
 	<true/>
 	<key>NeverWarnAboutShortLivedSessions_7FCA6AFD-5B23-4E61-9AF5-7F530D4C28DE_selection</key>
@@ -31750,12 +31740,16 @@
 			</dict>
 			<key>Ansi 1 Color</key>
 			<dict>
+				<key>Alpha Component</key>
+				<real>1</real>
 				<key>Blue Component</key>
-				<real>0.25098040699958801</real>
+				<real>0.25217214226722717</real>
+				<key>Color Space</key>
+				<string>Calibrated</string>
 				<key>Green Component</key>
-				<real>0.28235295414924622</real>
+				<real>0.28114664554595947</real>
 				<key>Red Component</key>
-				<real>0.94901961088180542</real>
+				<real>0.94880074262619019</real>
 			</dict>
 			<key>Ansi 10 Color</key>
 			<dict>
@@ -31876,12 +31870,16 @@
 			</dict>
 			<key>Ansi 9 Color</key>
 			<dict>
+				<key>Alpha Component</key>
+				<real>1</real>
 				<key>Blue Component</key>
-				<real>0.25098040699958801</real>
+				<real>0.25217214226722717</real>
+				<key>Color Space</key>
+				<string>Calibrated</string>
 				<key>Green Component</key>
-				<real>0.28235295414924622</real>
+				<real>0.28114664554595947</real>
 				<key>Red Component</key>
-				<real>0.94901961088180542</real>
+				<real>0.94880074262619019</real>
 			</dict>
 			<key>Automatically Log</key>
 			<false/>
@@ -33393,44 +33391,14 @@
 			<string>/Users/romera_t</string>
 		</dict>
 	</array>
-	<key>NoSyncConfirmBeta</key>
+	<key>NoSyncHaveWarnedAboutPasteConfirmationChange</key>
 	<true/>
-	<key>NoSyncDoNotWarnBeforeMultilinePaste</key>
-	<true/>
-	<key>NoSyncDoNotWarnBeforeMultilinePaste_selection</key>
-	<integer>0</integer>
 	<key>NoSyncInstallationId</key>
-	<string>0EAB8E3E-E81F-411A-9D6F-C0F5A160E6DE</string>
-	<key>NoSyncLastTipTime</key>
-	<real>488188277.53030998</real>
+	<string>E871D432-4AAF-43F1-A698-E18BE06CEC37</string>
 	<key>NoSyncPermissionToShowTip</key>
-	<true/>
-	<key>NoSyncSilenceAnnoyingBellAutomatically</key>
-	<true/>
+	<false/>
 	<key>NoSyncTimeOfFirstLaunchOfVersionWithTip</key>
-	<real>486485678.91604799</real>
-	<key>NoSyncTimeOfLastPromo</key>
-	<real>478377267.38868397</real>
-	<key>NoSyncTimeOfLastPromoDownload</key>
-	<real>486482549.79164898</real>
-	<key>NoSyncTipsDisabled</key>
-	<true/>
-	<key>NoSyncTipsToNotShow</key>
-	<array>
-		<string>000</string>
-		<string>0000</string>
-		<string>0001</string>
-		<string>0002</string>
-		<string>0003</string>
-		<string>0004</string>
-		<string>0005</string>
-		<string>0006</string>
-		<string>0007</string>
-		<string>0008</string>
-		<string>0009</string>
-		<string>0010</string>
-		<string>0011</string>
-	</array>
+	<real>501771012.99450302</real>
 	<key>OnlyWhenMoreTabs</key>
 	<true/>
 	<key>OpenArrangementAtStartup</key>
@@ -33477,7 +33445,7 @@
 		</dict>
 	</dict>
 	<key>PrefsCustomFolder</key>
-	<string>/Users/romera_t/workspace/mysh</string>
+	<string>/Users/thomasromera/workspace/mysh</string>
 	<key>PromptOnQuit</key>
 	<true/>
 	<key>QuitWhenAllWindowsClosed</key>
@@ -33491,11 +33459,13 @@
 	<key>SUFeedAlternateAppNameKey</key>
 	<string>iTerm</string>
 	<key>SUFeedURL</key>
-	<string>https://iterm2.com/appcasts/final.xml?shard=14</string>
+	<string>https://iterm2.com/appcasts/final.xml?shard=79</string>
 	<key>SUHasLaunchedBefore</key>
 	<true/>
 	<key>SULastCheckTime</key>
-	<date>2016-11-24T13:38:13Z</date>
+	<date>2016-11-28T08:43:34Z</date>
+	<key>SUSendProfileInfo</key>
+	<false/>
 	<key>SavePasteHistory</key>
 	<false/>
 	<key>ShowBookmarkName</key>
@@ -33544,5 +33514,9 @@
 	<false/>
 	<key>iTerm Version</key>
 	<string>3.0.12</string>
+	<key>kCPKSelectionViewPreferredModeKey</key>
+	<integer>0</integer>
+	<key>kCPKSelectionViewShowHSBTextFieldsKey</key>
+	<false/>
 </dict>
 </plist>
